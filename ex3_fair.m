@@ -26,8 +26,8 @@ Theta3 = Gamma3 + Delta3; % cost parameter on x+y, which is convenient for centr
 S3 = ones(N,M);
 
 % weighting consts on fairness
-omega1 = 0;  % with fairness
-omega3 = 5;  % without fairness
+omega1 = 0;  % without fairness
+omega3 = 5;  % with fairness
 
 
 [OTDistance3,Pi3] = OTPRIMALIncomplete_fair(p3,q3,Theta3,S3,omega3); % with fairness
